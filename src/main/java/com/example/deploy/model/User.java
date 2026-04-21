@@ -20,6 +20,8 @@ public class User {
     private String id;
     @Column (nullable = false)
     private String name;
+    @Column (nullable = false, unique = true)
+    private String nim;
 
 }
 
